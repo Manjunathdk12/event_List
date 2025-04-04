@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# CommunionHub 🙏🌐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React-based web application designed to **connect people across faiths and interests** through shared events and community engagement.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Project Overview
 
-### `npm start`
+**CommunionHub** is a modern web application built using React, aimed at bringing communities together through events. It features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ A welcoming **Home Page**
+- 🗓️ An interactive **Event Listing Page**
+- 🔐 A **Login Page**
+- ℹ️ An **About Page**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users can view upcoming events, filter them by category, and even create or edit their own.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- 🔹 Responsive design using custom CSS
+- 🔹 Navigation using `react-router-dom`
+- 🔹 Event CRUD operations (Create, Read, Update, Delete)
+- 🔹 Filter events by category: *Religious*, *Social*, *Charity*
+- 🔹 Clean and minimal UI
+- 🔹 Modular React component structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Ensure you have the following installed:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/communionhub.git
+   cd communionhub
+2. Install dependencies
+  npm install
+  # or
+  yarn install
+3. Start the development server
+  npm start
+  # or
+  yarn start
+4.Visit the app Open your browser and go to:
+  http://localhost:3000
+🧾 Folder Structure
+  communionhub/
+<img width="276" alt="{EC2ED526-5962-4AEC-A56D-1EA38FD76955}" src="https://github.com/user-attachments/assets/d4fa00c7-0992-4693-a930-dd4ef1b1ca26" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+🛠️ Tech Stack
+⚛️ React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧭 React Router DOM
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🎨 CSS3
 
-### Code Splitting
+📦 npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📷 Screenshots
 
-### Analyzing the Bundle Size
+![Home Page](./src/assets/home-screenshot.png)
+![Event Listing Page](./src/assets/events-screenshot.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📃 License
+This project is licensed under the MIT License.
 
-### Making a Progressive Web App
+🙌 Acknowledgements
+React Official Documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Unsplash for images
 
-### Advanced Configuration
+FontAwesome for icons (if used)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
