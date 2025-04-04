@@ -55,35 +55,43 @@ Ensure you have the following installed:
   http://localhost:3000
 🧾 Folder Structure
   communionhub/
-│
+communionhub/
 ├── public/
 │   └── index.html
 │
 ├── src/
-│   ├── assets/              # Contains images like Home.png
+│   ├── assets/
+│   │   └── Home.png
+│   │
 │   ├── components/
 │   │   ├── Header/
 │   │   │   ├── index.js
 │   │   │   └── index.css
+│   │   │
 │   │   ├── Home/
 │   │   │   ├── index.js
 │   │   │   └── index.css
+│   │   │
 │   │   ├── Events/
 │   │   │   ├── index.js
 │   │   │   └── index.css
+│   │   │
 │   │   ├── EventForm/
 │   │   │   ├── index.js
 │   │   │   └── index.css
+│   │   │
 │   │   ├── Login/
 │   │   │   ├── index.js
 │   │   │   └── index.css
+│   │   │
 │   │   └── About/
 │   │       ├── index.js
 │   │       └── index.css
-│   ├── App.js
-│   └── index.js
 │
+├── App.js
+├── index.js
 └── README.md
+
 🛠️ Tech Stack
 ⚛️ React
 
