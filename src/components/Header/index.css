@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto;
+    font-weight: bold;
+    align-items: center;
+    background-color: black;
+}
+.navPage{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+}
+.logo{
+    margin-left: 50px;
+    color: blueviolet;
+}
+.link{
+    margin-right: 10px;
+    text-decoration: none;
+    color: blueviolet;
+}
