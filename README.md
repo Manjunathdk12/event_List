@@ -55,43 +55,8 @@ Ensure you have the following installed:
   http://localhost:3000
 🧾 Folder Structure
   communionhub/
-communionhub/
-communionhub/
-├── public/
-│   └── index.html
-│
-├── src/
-│   ├── assets/
-│   │   └── Home.png
-│   │
-│   ├── components/
-│   │   ├── Header/
-│   │   │   ├── index.js
-│   │   │   └── index.css
-│   │   │
-│   │   ├── Home/
-│   │   │   ├── index.js
-│   │   │   └── index.css
-│   │   │
-│   │   ├── Events/
-│   │   │   ├── index.js
-│   │   │   └── index.css
-│   │   │
-│   │   ├── EventForm/
-│   │   │   ├── index.js
-│   │   │   └── index.css
-│   │   │
-│   │   ├── Login/
-│   │   │   ├── index.js
-│   │   │   └── index.css
-│   │   │
-│   │   └── About/
-│   │       ├── index.js
-│   │       └── index.css
-│
-├── App.js
-├── index.js
-└── README.md
+<img width="276" alt="{EC2ED526-5962-4AEC-A56D-1EA38FD76955}" src="https://github.com/user-attachments/assets/d4fa00c7-0992-4693-a930-dd4ef1b1ca26" />
+
 
 🛠️ Tech Stack
 ⚛️ React
