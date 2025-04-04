@@ -14,16 +14,66 @@
     color:blueviolet;
 }
 .para{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
 }
-.button{
-    width: 150px;
-    padding: 10px;
-    border-color: white;
-    border-radius: 10px;
+.button {
+    width: 160px;
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 12px;
     background-color: transparent;
-    color:white;
-    font-size: 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  
+  /* 🔥 Animation when clicked */
+  .button-clicked {
+    animation: zoomOut 0.6s ease forwards;
+  }
+  
+  @keyframes zoomOut {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
 }
+
+/* Reusable fade + slide-in animation */
+@keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-slide-in {
+    animation: fadeSlideIn 1s ease forwards;
+    opacity: 0;
+  }
+  
+  /* Delays for each element */
+  .delay-1 {
+    animation-delay: 0.3s;
+  }
+  
+  .delay-2 {
+    animation-delay: 0.6s;
+  }
+  

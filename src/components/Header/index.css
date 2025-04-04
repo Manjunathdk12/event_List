@@ -1,24 +1,41 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-around;
-    font-family: Roboto;
-    font-weight: bold;
     align-items: center;
     background-color: black;
-}
-.navPage{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    list-style-type: none;
-    text-decoration: none;
-}
-.logo{
+    font-family: Roboto;
+    padding: 10px 0;
+  }
+  
+  .logo {
     margin-left: 50px;
     color: blueviolet;
-}
-.link{
-    margin-right: 10px;
+    font-size: 28px;
+  }
+  
+  .navPage {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 0;
+  }
+  
+  .link {
+    font-size: 20px;
     text-decoration: none;
     color: blueviolet;
-}
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 5px;
+  }
+  
+  .link:hover {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  
+  .active-link {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  

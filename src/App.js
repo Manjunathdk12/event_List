@@ -4,6 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Events from './components/Events'
 import Login from './components/Login'
+import NotFound from './components/NotFound' // <-- Import this
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="*" element={<NotFound />} /> 
       </Routes>
     </Router>
   )
