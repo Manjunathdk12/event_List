@@ -56,6 +56,7 @@ Ensure you have the following installed:
 🧾 Folder Structure
   communionhub/
 communionhub/
+communionhub/
 ├── public/
 │   └── index.html
 │
